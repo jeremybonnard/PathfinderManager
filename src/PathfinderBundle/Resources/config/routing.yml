@@ -1,0 +1,3 @@
+pathfinder_homepage:
+    path:     /
+    defaults: { _controller: PathfinderBundle:Default:index }

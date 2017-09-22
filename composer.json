@@ -5,7 +5,9 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "UserBundle\\": "src/UserBundle",
+            "PathfinderBundle\\": "src/PathfinderBundle"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
